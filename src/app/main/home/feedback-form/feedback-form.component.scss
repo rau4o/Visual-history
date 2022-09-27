@@ -1,0 +1,51 @@
+.feedback-form-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  .left-side {
+    width: 44%;
+    .title {
+      font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      color: #2D2D2D;
+    }
+    .subtitle {
+      margin-top: 47px;
+      font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      color: #2D2D2D;
+    }
+    img {
+      margin-top: -3rem;
+    }
+  }
+  .right-side {
+    input {
+      width: 530px;
+      height: 70px;
+      background: #DFDFDF;
+      margin-bottom: 27px;
+      padding-left: 33px;
+    }
+    textarea {
+      background: #DFDFDF;
+      width: 530px;
+      padding-left: 33px;
+      padding-top: 20px;
+    }
+    .btn-submit {
+      margin-top: 28px;
+      width: 235px;
+      height: 80px;
+      background: #2D2D2D;
+      font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.art-news-container {
+  margin-top: 65px;
+  .title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #2D2D2D;
+  }
+  .art-list {
+    margin-top: 48px;
+    .art-item {
+      margin-bottom: 30px;
+      .art-title {
+        margin-top: 25px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #2D2D2D;
+      }
+      .art-tag {
+        margin-top: 6px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        span:not(:last-child) {
+          margin-right: 24px;
+        }
+        .green {
+          color: #009379;
+        }
+        .blue {
+          color: #6FBFF9;
+        }
+        .red {
+          color: #FF6250;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.information-container {
+  margin-top: 120px;
+  .information-item {
+    width: 250px;
+    .title {
+      margin-top: 62px;
+      font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 27px;
+      color: #2D2D2D;
+    }
+    .info {
+      text-align: center;
+      margin-top: 15px;
+      font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      color: #2D2D2D;
+    }
+  }
+}

@@ -5,9 +5,11 @@ import {HomeRoutingModule} from './home-routing.module';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
 import { InformationComponent } from './information/information.component';
+import { ArtNewsComponent } from './art-news/art-news.component';
+import { FeedbackFormComponent } from './feedback-form/feedback-form.component';
 
 @NgModule({
-  declarations: [HomeComponent, HomePageComponent, SponsorComponent, InformationComponent],
+  declarations: [HomeComponent, HomePageComponent, SponsorComponent, InformationComponent, ArtNewsComponent, FeedbackFormComponent],
   imports: [
     CommonModule,
     HomeRoutingModule
