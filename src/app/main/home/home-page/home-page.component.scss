@@ -32,9 +32,19 @@
       font-size: 17px;
       color: rgba(45, 45, 45, 0.5);
     }
+    .line {
+      height: 2px;
+      width: 72px;
+      background: rgba(45, 45, 45, 0.5);
+    }
   }
   .right-side {
     margin-top: 50px;
+    .vertical-arrow {
+      position: absolute;
+      top: 9.4rem;
+      right: 27.5rem;
+    }
     .red {
       position: absolute;
       right: 71px;
@@ -47,7 +57,7 @@
     .green {
       position: absolute;
       right: 27.1rem;
-      bottom: 11rem;
+      top: 32rem;
       width: 137px;
       height: 136px;
       background: #009379;
@@ -57,7 +67,20 @@
       font-weight: 400;
       font-size: 16px;
       color: rgba(254, 254, 254, 0.5);
-
+      img {
+        margin-bottom: 30px;
+        margin-top: -8px;
+      }
+    }
+    .menu-slider {
+      margin-top: 13px;
+      margin-left: auto;
+      img {
+        margin-right: 23px;
+      }
+      img:last-child {
+        margin-right: 0;
+      }
     }
   }
 }
